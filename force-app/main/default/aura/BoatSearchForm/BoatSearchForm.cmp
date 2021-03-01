@@ -4,7 +4,7 @@
     <aura:attribute type="Boolean" name="isNewButtonAvailable" default="false"/>
     <aura:attribute type="BoatType__c" name="selectedBoatType"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
-    <aura:registerEvent name="formsubmit" type="c:formsubmit"/>
+    <aura:registerEvent name="formsubmit" type="c:Formsubmit"/>
    
    
     <lightning:layout horizontalAlign="center" verticalAlign="end">         
