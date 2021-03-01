@@ -12,7 +12,8 @@
 # Challenge 2
 
 # Install Leaflet in your org as static resource.
-**URL - https://leafletjs.com/download.html** Download and save the Leaflet.zip file
+**URL - https://leafletjs.com/download.html**
+***Download and save the Leaflet.zip file***
 **Go to your org, Setup -> Static Resource -> New -> Name: Leaflet , Choose Leaflet.zip file that you downloaded -> Save
 
 [========]
