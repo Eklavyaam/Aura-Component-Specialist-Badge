@@ -20,7 +20,7 @@
 
 [========]
 
-**1.Create new component named BoatSearchForm**
+**1.Create Component: BoatSearchForm**
 
 ***BoatSearchForm.cmp :***
 
