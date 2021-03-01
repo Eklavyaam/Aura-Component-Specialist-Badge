@@ -509,8 +509,8 @@ public class BoatSearchResults {
 **1.Create Lightning event : BoatSelect**
 ```
 BoatSelect.evt:
-<aura:event type="APPLICATION" description="Event template">
-<aura:attribute name="selectedBoatType" type="BoatType__c"/>
+<aura:event type="COMPONENT" description="Event template">
+<aura:attribute name="boatId" type="Id"/>
 </aura:event>
 ```
 **2.Modify component Boattile**
