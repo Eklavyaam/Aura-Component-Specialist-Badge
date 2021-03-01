@@ -1,10 +1,23 @@
-# Each challange have it's own branch (Go to each branch and appy only that code to clear challange)
+# Step by Step guide for "Aura Component Specialist badge challanges
 
-# Challenge 2-Build the query-by-example form :
+# Challange 1
+**Just follow instruction from challange**
+**1. Install package**
+**2. Change session setting**
+
+![Session Setting](https://user-images.githubusercontent.com/45493653/109465285-f22fb400-7a35-11eb-9a81-b0b2b914b7bd.PNG)
+
+
+
+# Challenge 2
+
+# Install Leaflet in your org as static resource.
+**URL - https://leafletjs.com/download.html** Download and save the Leaflet.zip file
+**Go to your org, Setup -> Static Resource -> New -> Name: Leaflet , Choose Leaflet.zip file that you downloaded -> Save
 
 [========]
 
-#### 1.Create new component named BoatSearchForm
+**1.Create new component named BoatSearchForm**
 
 ***BoatSearchForm.cmp :***
 
@@ -90,13 +103,10 @@
 })
 ```
 
-[========]
+**2.Create Component: BoatSearchResults**  — ( This component does not required any changes for now, Just create it and we will modify it for later challange )
 
-**2.Create BoatSearchResults component — ( This component does not required any changes for now )**
 
-[========]
-
-**3.Create new component named BoatSearch**
+**3.Create Component: BoatSearch**
 
 ***BoatSearch.cmp :***
 
@@ -123,8 +133,6 @@
 }
 ```
 
-[========]
-
 **4.Create Apex class name : BoatTypeController**
 
 ```
@@ -137,7 +145,7 @@ public with sharing class BoatTypeController{
 ```
 [========]
 
-**Go to Lightning App builder and create new-> App Page-> Label: Friends with Boats -> Main Region and Right Sidebar**
+**Go to Lightning App builder and create new-> App Page-> Label: Friends with Boats -> Main Region and Right Sidebar** (make sure Label name is correct, copy paste it from challange page if you want.)
 
 ![1](https://user-images.githubusercontent.com/45493653/109465264-e93ee280-7a35-11eb-9618-40dcac08ce10.PNG)
 
@@ -171,102 +179,9 @@ public with sharing class BoatTypeController{
 **Challange complete.**
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [========]
 
 # Challenge 3 & 4
-
-[========]
 
 **Here we will update code for both challange. It will pass both.**
 
@@ -338,8 +253,6 @@ public with sharing class BoatTypeController{
 }
 ```
 
-[========]
-
 **2.create Lightning event : Formsubmit**
 ```
 Formsubmit.evt:
@@ -347,8 +260,6 @@ Formsubmit.evt:
 <aura:attribute name="formData" type="object"/>
 </aura:event>
 ```
-
-[========]
 
 **3.Create Apex class : BoatSearchResults**
 
@@ -375,10 +286,7 @@ public class BoatSearchResults {
 }
 ```
 
-[========]
-
-
-**4.Modify the BoatSearchForm component**
+**4.Modify component: BoatSearchForm**
 
 ***BoatSearchForm.cmp***
 ```
@@ -479,9 +387,6 @@ public class BoatSearchResults {
 })
 ```
 
-[========]
-
-
 **5.Create Component: BoatSearch**
 
 ***BoatSearch.cmp***
@@ -521,9 +426,6 @@ public class BoatSearchResults {
     margin-bottom:10px
 }
 ```
-
-[========]
-
 
 **6.Modify component BoatSearchResults**
 
