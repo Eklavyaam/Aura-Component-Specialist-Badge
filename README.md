@@ -148,7 +148,7 @@ public with sharing class BoatTypeController{
 ```
 [========]
 
-**Go to Lightning App builder and create new-> App Page-> Label: Friends with Boats -> Main Region and Right Sidebar** (make sure Label name is correct, copy paste it from challange page if you want.)
+**Go to Setup -> Lightning App builder and create new-> App Page-> Label: Friends with Boats -> Main Region and Right Sidebar** (make sure Label name is correct, copy paste it from challange page if you want.)
 
 ![1](https://user-images.githubusercontent.com/45493653/109465264-e93ee280-7a35-11eb-9618-40dcac08ce10.PNG)
 
